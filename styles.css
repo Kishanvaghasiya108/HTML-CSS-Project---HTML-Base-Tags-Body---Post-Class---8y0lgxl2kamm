@@ -1,1 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main1{
+    height: 90vh;
+    width: 25vw;
+    border: 5px solid white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navigation{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    border-radius: 0px 0px 10px 10px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    height: 5vh;
+    justify-content: space-between;
+}
+.icon:hover{
+    color: rgb(246,98,46);
+}
+.wallpaper{
+    background-image: url("https://wallpapers.com/images/file/iphone-x-oled-3aheow5hk9kvhn2q.jpg");
+    border: 1px solid black;
+    border-radius: 10px 10px 0px 0px;
+    height: 100%;
+    background-size: cover;
+    
 
+}
